@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="<c:url value="/style/main.css"/>">
 </head>
 <body>
+<%@include file = "/WEB-INF/view/parts/_nav.jsp"%>
+    <div class="container"
+
     <jsp:doBody/>
 </body>
 </html>
